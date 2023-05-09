@@ -54,7 +54,7 @@ function PostAcomment(props: Props) {
         alt="Your profile picture"
       />
       <input
-        className="w-[70%] rounded-full  p-1 px-2 border shadow-md  sm:w-full sm:flex-1 sm:mx-4 focus:outline-none"
+        className="w-[70%] rounded-full  p-1 px-2 border shadow-md  sm:w-full sm:flex-1 sm:mx-4 focus:outline-none text-black"
         placeholder={t("What's on your mind?") as string}
         type="text"
         onChange={handleComment}
